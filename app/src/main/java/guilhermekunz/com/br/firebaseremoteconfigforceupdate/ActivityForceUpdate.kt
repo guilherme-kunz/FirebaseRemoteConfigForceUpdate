@@ -18,6 +18,7 @@ class ActivityForceUpdate : AppCompatActivity() {
         binding = ActivityForceUpdateBinding.inflate(layoutInflater)
         setContentView(binding.root)
         btnUpdate()
+        btnNotNow()
     }
 
     private fun btnUpdate() {
