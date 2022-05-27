@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125227738695",
+    "project_id": "remoteconfigforceupdate",
+    "storage_bucket": "remoteconfigforceupdate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125227738695:android:d42b25516cef409cce3362",
+        "android_client_info": {
+          "package_name": "guilhermekunz.com.br.firebaseremoteconfigforceupdate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125227738695-c2qnllhfqdsmqqagi0ugk5c2sd0u1ja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMW8RbxyOmXpkQRV9cK2YXvL0TAtz47Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125227738695-c2qnllhfqdsmqqagi0ugk5c2sd0u1ja8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
