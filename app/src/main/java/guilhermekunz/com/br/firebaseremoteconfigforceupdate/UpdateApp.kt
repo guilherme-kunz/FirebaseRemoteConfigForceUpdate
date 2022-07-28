@@ -23,8 +23,6 @@ class UpdateApp(private val activity: FragmentActivity) {
 
     fun check() {
         val appVersion = getAppVersion(activity)
-//        val version =  getVersion of Preferences
-        if (appVersion == appVersion) return
         firebaseRemoteConfig.fetchAndActivate().addOnCompleteListener(activity) {
             if (it.isSuccessful) {
                 val forceUpdate = firebaseRemoteConfig.getBoolean(KEY_FORCE_UPDATE_REQUIRED)

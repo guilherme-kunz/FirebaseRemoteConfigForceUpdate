@@ -51,4 +51,6 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:30.0.2')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-config-ktx'
+
+    implementation "androidx.security:security-crypto:1.1.0-alpha03"
 }

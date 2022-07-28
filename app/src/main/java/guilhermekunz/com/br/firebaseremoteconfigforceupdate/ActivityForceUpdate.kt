@@ -18,7 +18,6 @@ class ActivityForceUpdate : AppCompatActivity() {
         binding = ActivityForceUpdateBinding.inflate(layoutInflater)
         setContentView(binding.root)
         btnUpdate()
-        btnNotNow()
     }
 
     private fun btnUpdate() {
@@ -27,13 +26,6 @@ class ActivityForceUpdate : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(updateUrl))
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             this.startActivity(intent)
-        }
-    }
-
-    private fun btnNotNow() {
-        binding.btnNotNow.setOnClickListener {
-            //sharedPreferences
-            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 
