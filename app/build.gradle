@@ -52,5 +52,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-config-ktx'
 
-    implementation "androidx.security:security-crypto:1.1.0-alpha03"
+   //Google
+    implementation 'com.google.android.material:material:1.6.1'
 }
